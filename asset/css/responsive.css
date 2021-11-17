@@ -1,0 +1,106 @@
+/*Tablet & Mobile*/
+@media (max-width: 1024px) {
+}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1024px){
+    .wedding-text{
+        font-size: 24px;
+    }
+    .content-section{
+        margin: 32px 48px;
+    }
+
+}
+
+/*Mobile*/
+@media (max-width: 739px){
+    .mg-bt-4-m{
+        margin-bottom: 8px;
+    }
+    .hearder_nav{
+        display: none;
+    }
+    .slider_content{
+        padding: 8px 16px;
+    }
+    .slider_content-heading{
+        font-size: 20px;
+        letter-spacing: 2px;
+        
+    }
+    .slider_content-sub{
+
+        font-size: 14px;
+    }
+    .content-section{
+        margin: 16px 32px;
+    }
+    .content_text-heading{
+        font-size: 48px;
+        letter-spacing: 5px;
+        font-weight: 500;
+    }
+    .content_text-sub{
+        font-size: 14px;
+    }
+    .moment-section{
+        padding: 24px 0;
+    }
+    .moment_list-more{
+        display: none;
+    }
+    .moment_list-text{
+        display: none;
+        padding: 0;
+        background-color: var(--background-hover);
+        color: var(--text-hover);
+
+    }
+
+    .moment_list-place:hover .moment_list-text{
+        display: block;
+    }
+
+    .moment_list-text--heading{
+        font-size: 20px;
+    
+    }
+    
+    .moment_list-text--sub{
+        font-size: 14px;
+
+    
+    }
+    .wedding-text{
+        display: none;
+
+    }
+
+    .about-section{
+        padding-top: 24px;
+    }
+
+    .about_info-name{
+        font-size: 20px;
+        padding: 4px 0;
+    
+
+    }
+
+    .about_info-age,
+    .about_info-born,
+    .about_info-link{
+        padding: 4px 0;
+        font-size: 12px;
+    }
+    .footer_touch-send{
+        display: none;
+    }
+
+    
+    
+
+
+    
+}

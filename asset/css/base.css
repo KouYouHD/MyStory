@@ -1,0 +1,61 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-color:rgb(191, 71, 27);
+    --text-sub: #731f0d;
+    --text-hover:rgb(115, 31, 13);
+    --background-header: rgba(115, 31, 13, 0.15);
+    --background-hover: rgba(242, 166, 99, 0.6);
+    --background-content: rgba(217, 126, 74, 0.65);
+    --font-heading: 'Fleur De Leah', cursive;
+    
+    --background-hover1: rgba(242, 202, 126, 0.67);
+
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.mg-bt-8{
+    margin-bottom: 8px;
+}
+
+.pdt-48{
+    padding-top: 48px;
+}
+
+/*animation*/
+
+@keyframes zoomOut{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes zoomBig{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
+@keyframes topDown {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(100%);
+    }
+}

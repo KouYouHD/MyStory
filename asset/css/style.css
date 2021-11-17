@@ -1,0 +1,351 @@
+   
+/*HEADER*/
+#header{
+    background-color: var(--background-header);
+    height: 64px;
+    width: 100%;
+    padding: 8px 32px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+}
+
+.hearder_icon{
+    height: 100%;
+}
+
+.hearder_nav{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.hearder_nav-list{
+    list-style: none;
+    align-self: center;
+    padding: 18px 16px;
+    margin: 0 8px;
+}
+.hearder_nav-list:hover{
+    cursor: pointer;
+    background-color: var(--background-content);
+    color: var(--text-hover);
+    transform: unset;
+}
+
+.hearder_nav-link{
+    text-decoration: none;
+}
+
+/*SLIDER*/
+
+#slider{
+    background: url('/asset/img/background.JPG') top center / cover no-repeat;
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 50%;
+}
+.slider_content{
+    text-align: center;
+    padding: 36px 72px;    
+}
+.slider_content:hover{
+    background-color: var(--background-hover);
+
+}
+
+.slider_content:hover .slider_content-heading{
+    color: var(--text-hover);
+
+}
+
+.slider_content-heading{
+    color: var(--text-color);
+    font-size: 24px;
+    letter-spacing: 3px;
+    
+}
+.slider_content-sub{
+    color: var(--text-sub);
+    font-style: italic; /*chữ nghiêng*/
+
+
+}
+
+
+/*CONTENT*/
+
+#content{
+    
+}
+.content-section{
+    margin: 48px 120px;
+}
+.content_text{
+    text-align: center;
+}
+.content_text-heading{
+    font-size: 60px;
+    letter-spacing: 16px;
+    color: var(--text-color);
+    font-family: var(--font-heading);
+    font-weight: 500;
+}
+.content_text-sub{
+    color: var(--text-sub);
+    font-style: italic; /*chữ nghiêng*/
+
+}
+
+/*Moment*/
+.moment-section{
+    padding: 36px 0;
+}
+.moment_list{
+
+}
+
+.moment_list-place{
+    position: relative;
+}  
+
+.moment_list-img{
+    width: 100%;
+
+}
+.moment_list-place:hover .moment_list-text{
+    background-color: var(--background-hover);
+    color: var(--text-hover);
+}
+
+.moment_list-place:hover .moment_list-more{
+    display: block;
+}
+
+
+.moment_list-text{
+    padding: 16px;
+    width: calc(100% - 16px);
+    position: absolute;
+    left: 8px;
+    bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moment_list-text--heading{
+    font-size: 24px;
+
+}
+
+.moment_list-text--sub{
+    
+
+}
+
+.moment_list-more{
+    display: none;
+    padding: 8px 16px;
+    border-radius: 24px;
+    background-color: var(--background-hover);
+    
+}
+.moment_list-more:hover{
+    background-color: var(--background-hover1);
+}
+
+.moment_list-more--link{
+    text-decoration: none;
+    color: var(--text-hover);
+
+}
+.moment_list-nomal{
+
+}
+
+.moment_list-nomal-text{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.moment_list-text-nomal-info{
+
+}
+
+.moment_list-nomal-more{
+    padding-top: 32px;
+
+}
+
+
+/*Wedding*/
+#wedding{
+    background-color: var(--background-content) ;
+}
+.wedding-section{
+    padding-bottom: 48px;
+}
+
+.wedding-img{
+    width: 100%;
+    transition: transform .2s;
+}
+.wedding-img:hover{
+    transform: scale(1.045); 
+}
+
+.wedding-text{
+    font-size: 30px;
+    font-family: var(--font-heading);
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: var(--text-sub); /*You are my happiness!*/
+}
+/*About us*/
+.about-section{
+    padding-top: 36px;
+
+}
+
+.aboutus{
+    position: relative;
+
+}
+
+.about-img{
+    width: 100%;
+}
+
+.aboutus:hover .about_info{
+    display: flex;
+    cursor: pointer;
+
+  /*  transform-origin: calc(100% - 32px) top; /*chuyển động*/
+    animation: zoomOut ease-in 0.75s;
+  /*  will-change: opacity, transform ;/*thuộc tính animation nào sẽ thay đổi*/
+
+}
+
+.about_info{
+    background-color: var(--background-hover);
+    width: calc(100% - 16px);
+    height: calc(100% - 23px);
+    z-index: 1;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-hover);
+
+}
+
+.about_info-name{
+    font-size: 40px;
+    padding: 12px 0;
+    font-family: 'WindSong', cursive;
+
+}
+
+.about_info-age{
+    padding: 12px 0;
+
+}
+
+.about_info-born{
+    padding: 12px 0;
+
+}
+.about_info-link{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 12px 0;
+
+}
+
+.about_info-icon{
+
+}
+
+/*FOOTER*/
+
+#footer{
+    background: url(/asset/img/contact.JPG) top center / cover no-repeat;
+    padding: 48px 0;
+
+}
+.footer-info_logo,
+.contact-img{
+    width: 100%;
+}
+
+.footer_touch{
+    text-align: center;
+    padding: 32px 0;
+
+}
+
+.footer_touch-send{
+    margin: auto;
+    
+}
+.footer_touch-input{
+    outline: none;
+    padding: 10px 16px;
+    border-radius: 16px;
+    border:none;
+    min-width: calc(50% - 16px);
+    
+}
+
+.footer_touch-btn{
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 24px;
+    background-color: var(--background-header);
+    color: var(--text-color);
+}
+
+.footer_touch-btn:hover{
+    background-color: var(--background-hover);
+    color: var(--text-hover);
+
+}
+
+.footer_info{
+    background-color: var(--background-hover);
+    margin: 48px;
+    padding: 32px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer_info-text{
+
+}
+
+.footer-info_logo{
+
+}
+
+.footer-info_sub{
+    font-size: 18px;
+
+}
+
+.footer-info_icon{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 30px;
+    padding: 0 8px;
+
+}
+
+
