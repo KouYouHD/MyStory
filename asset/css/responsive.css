@@ -50,11 +50,17 @@
     .moment_list-more{
         display: none;
     }
+    .moment_list-place:hover .moment_list-more{
+        display: none;
+    }
     .moment_list-text{
         display: none;
-        padding: 0;
+        padding: 8px;
         background-color: var(--background-hover);
         color: var(--text-hover);
+        bottom: 11px;
+        left: 4px;
+        width: calc(100% - 8px);
 
     }
 
@@ -76,7 +82,9 @@
         display: none;
 
     }
-
+    .wedding-img:hover{
+        transform: scale(1);
+    }
     .about-section{
         padding-top: 24px;
     }
