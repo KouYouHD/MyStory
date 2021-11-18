@@ -42,7 +42,7 @@
 /*SLIDER*/
 
 #slider{
-    background: url('../asset/img/background.JPG') top center / cover no-repeat;
+  /*  background: url('../asset/img/background.JPG') top center / cover no-repeat; */
     position: inherit;
     top: 0;
     left: 0;
@@ -277,7 +277,7 @@
 /*FOOTER*/
 
 #footer{
-    background: url(/asset/img/contact.JPG) top center / cover no-repeat;
+ /*   background: url(/asset/img/contact.JPG) top center / cover no-repeat;  */
     padding: 48px 0;
 
 }
