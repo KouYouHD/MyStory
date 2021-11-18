@@ -19,7 +19,7 @@
     display: flex;
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--text-color);
+    
 }
 
 .hearder_nav-list{
@@ -37,6 +37,7 @@
 
 .hearder_nav-link{
     text-decoration: none;
+   color: var(--text-color);
 }
 
 /*SLIDER*/
